@@ -4,6 +4,10 @@ EMNLP2023-findings: MIRACLE: Towards Personalized Dialogue Generation with Laten
 
 Dataset is uploaded in [here](https://huggingface.co/datasets/lu-vae/Miracle-Conversation).
 
+The arxiv paper is on holding... 
+
+![image](https://github.com/LZY-the-boys/MIRACLE/assets/72137647/ad539a33-2ee1-4a16-b045-4b8dd1f37de0)
+
 ## The Concept
 
 We modeling the  multi-facted personality as the fusion of multiple personal attribute ($P_1, P_2, \cdots, P_N$), where each attribute may have many aspects ($p_1, p_2, \cdots, p_m$).
@@ -64,3 +68,18 @@ We recommendate you to clean them before use to make sure it's personality richn
 
 Before training, change the `schema.py` to set you dataset file paths.
 
+## Citation
+
+```
+@inproceedings{miracle,
+    title = "MIRACLE: Towards Personalized Dialogue Generation with Latent-Space Multiple Personal Attribute Control",
+    author = "Zhenyi Lu  and
+      Wei Wei and
+      Xiaoye Qu  and
+      XianLing Mao  and
+      Dangyang Chen  and
+      Jixiong Chen",
+    year = "2023",
+    publisher = "Association for Computational Linguistics",
+}
+```
