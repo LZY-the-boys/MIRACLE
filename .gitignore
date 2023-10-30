@@ -1,0 +1,7 @@
+outs
+__pycache__
+*.json
+*.jsonl
+*.ex*.sh
+*.xlsx
+api
