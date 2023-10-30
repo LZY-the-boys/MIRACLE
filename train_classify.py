@@ -421,9 +421,9 @@ def _start(
     resume_from_checkpoint:str=None,
     use_context:bool=False,
     type:str='',
-    attrs:str=None, # 兼容
+    attrs:str=None, 
     ids:str=None,
-    kl_ratio:float=0.,# 兼容
+    kl_ratio:float=0.,
     attr_cls_ratio:float=0.,
     attr_gap_ratio:float=0.,
     prior_cls: bool=False,
