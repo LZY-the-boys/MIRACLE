@@ -2,7 +2,11 @@
 
 EMNLP2023-findings: MIRACLE: Towards Personalized Dialogue Generation with Latent-Space Multiple Personal Attribute Control
 
-Dataset is uploaded in [here](https://huggingface.co/datasets/lu-vae/Miracle-Conversation).
+[arxiv link](https://arxiv.org/abs/2310.18342)
+
+Dataset is uploaded in [here](https://huggingface.co/datasets/lu-vae/Miracle-Conversation). 
+
+![image](https://github.com/LZY-the-boys/MIRACLE/assets/72137647/ad539a33-2ee1-4a16-b045-4b8dd1f37de0)
 
 ## The Concept
 
@@ -63,3 +67,15 @@ We recommendate you to clean them before use to make sure it's personality richn
 
 Before training, change the `schema.py` to set you dataset file paths.
 
+## Citation
+
+```
+@misc{lu2023miracle,
+    title={MIRACLE: Towards Personalized Dialogue Generation with Latent-Space Multiple Personal Attribute Control},
+    author={Zhenyi Lu and Wei Wei and Xiaoye Qu and XianLing Mao and Dangyang Chen and Jixiong Chen},
+    year={2023},
+    eprint={2310.18342},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+```
