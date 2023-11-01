@@ -40,8 +40,7 @@ Then, you can train our Miracle and generate personalized responses by:
 bash pipeline.sh
 ```
 which call `train_cvae.sh` for training and `gen_cave.sh` for generation.
-
-Notice that for different dataset or different senarioes, you may need to adjust hyper-parameters to gain better results. 
+We select the 11th epoch model as our final model. Notice that for different dataset or different senarioes, you may need to adjust hyper-parameters to gain better results. 
 
 ## Customize you data
 
