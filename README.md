@@ -67,6 +67,13 @@ We recommendate you to clean them before use to make sure it's personality richn
 
 Before training, change the `schema.py` to set you dataset file paths.
 
+## Similar Insights
+
+- Controllable and Compositional Generation with Latent-Space Energy-Based Models. NIPS 2021 [code](https://github.com/NVlabs/LACE)
+- Composable Text Controls in Latent Space with ODEs. EMNLP 2022 [code](https://github.com/guangyliu/LatentOps)
+- A Distributional Lens for Multi-Aspect Controllable Text Generation. EMNLP 2022 [code](https://github.com/HappyGu0524/MultiControl)
+- Controllable Text Generation via Probability Density Estimation in the Latent Space. ACL 2023 [code](https://github.com/HappyGu0524/MultiControl)
+
 ## Citation
 
 ```
